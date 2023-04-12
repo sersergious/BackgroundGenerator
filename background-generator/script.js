@@ -8,8 +8,6 @@ setGradient = () => {
 	css.textContent = `${body.style.background};`;
 }
 
-
-
 _linearGradient = () => {
 	return `linear-gradient(to right, ${color1.value}, ${color2.value})`;
 }
@@ -17,7 +15,6 @@ _linearGradient = () => {
 color1.addEventListener('input', setGradient);
 
 color2.addEventListener('input', setGradient);
-
 //Original version:
 // var css = document.querySelector("h3");
 // var color1 = document.querySelector(".color1");
